@@ -5,15 +5,13 @@ public class PROBLEM112A {
         String word1 = sc.nextLine().toLowerCase();
         String word2 = sc.nextLine().toLowerCase();
         if (word1.equals(word2))
-            System.out.println(0);
+            System.out.println("0");
         for (int i = 0; i < word1.length(); i++) {
-            if (word1.charAt(i) == word2.charAt(i))
-                continue;
-            else if (word1.charAt(i) > word2.charAt(i)) {
-                System.out.println(1);
+            if (word1.charAt(i) > word2.charAt(i)) {
+                System.out.println("1");
                 break;
             } else if (word1.charAt(i) < word2.charAt(i)) {
-                System.out.println(-1);
+                System.out.println("-1");
                 break;
             }
         }
