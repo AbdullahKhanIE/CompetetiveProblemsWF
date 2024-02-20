@@ -4,6 +4,7 @@ public class PROBLEM112A {
         Scanner sc = new Scanner(System.in);
         String word1 = sc.nextLine().toLowerCase();
         String word2 = sc.nextLine().toLowerCase();
+        sc.close();
         if (word1.equals(word2))
             System.out.println("0");
         for (int i = 0; i < word1.length(); i++) {
@@ -15,6 +16,5 @@ public class PROBLEM112A {
                 break;
             }
         }
-        sc.close();
     }
 }
