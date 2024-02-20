@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PROBLEM110A {
+public class A110 {
     public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     long n=sc.nextLong();

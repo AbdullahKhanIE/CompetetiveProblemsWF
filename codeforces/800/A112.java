@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PROBLEM112A {
+public class A112 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String word1 = sc.nextLine().toLowerCase();
