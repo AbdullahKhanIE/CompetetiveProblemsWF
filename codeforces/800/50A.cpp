@@ -5,8 +5,6 @@ int main(){
     
     int m,n;
     cin>>m>>n;
-
-    int x = (m*n)/2;
-    cout<<x<<endl;
+    cout<<(m*n)/2<<endl;
     return 0;
 }
