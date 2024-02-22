@@ -12,11 +12,11 @@ public class A71 {
         sc.close();
         for (int i = 0; i < n; i++) {
             int index = word[i].length();
-            String temp = word[i];
+            String name = word[i];
             if (index > 10)
-                System.out.println(temp.charAt(0) + Integer.toString(index - 2) + temp.charAt(index - 1));
+                System.out.println(name.charAt(0) + Integer.toString(index - 2) + name.charAt(index - 1));
             else
-                System.out.println(temp);
+                System.out.println(name);
         }
 
     }

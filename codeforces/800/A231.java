@@ -7,13 +7,13 @@ public class A231 {
         n = sc.nextInt();
         int[][] result = new int[n][3];
         for (int i = 0; i < n; i++) {
-            int temp = 0;
+            int name = 0;
             for (int j = 0; j < 3; j++) {
                 result[i][j] = sc.nextInt();
                 if (result[i][j] == 1)
-                    temp += result[i][j];
+                    name += result[i][j];
             }
-            if (temp > 1)
+            if (name > 1)
                 count++;
         }
         sc.close();
