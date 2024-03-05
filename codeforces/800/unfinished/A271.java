@@ -13,6 +13,5 @@ public class A271 {
             else
                 rep++;
         }
-        if
     }
 }
